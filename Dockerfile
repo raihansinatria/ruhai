@@ -1,8 +1,7 @@
 FROM node:20-slim
 
 RUN apt-get update && apt-get install -y \
-    libreoffice-nogui \
-    libreoffice-writer \
+    libreoffice-writer-nogui \
     fonts-dejavu \
     fonts-liberation \
     --no-install-recommends && \
